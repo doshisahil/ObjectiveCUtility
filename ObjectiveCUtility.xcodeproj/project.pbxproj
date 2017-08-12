@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49B94F71F3EE73C00A8D259 /* ObjectiveCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F49B94F61F3EE73C00A8D259 /* ObjectiveCUtility.h */; };
+		F49B94F91F3EE73C00A8D259 /* ObjectiveCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B94F81F3EE73C00A8D259 /* ObjectiveCUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F49B94F31F3EE73C00A8D259 /* libObjectiveCUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveCUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B94F61F3EE73C00A8D259 /* ObjectiveCUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCUtility.h; sourceTree = "<group>"; };
+		F49B94F81F3EE73C00A8D259 /* ObjectiveCUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49B94F01F3EE73C00A8D259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49B94EA1F3EE73C00A8D259 = {
+			isa = PBXGroup;
+			children = (
+				F49B94F51F3EE73C00A8D259 /* ObjectiveCUtility */,
+				F49B94F41F3EE73C00A8D259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49B94F41F3EE73C00A8D259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49B94F31F3EE73C00A8D259 /* libObjectiveCUtility.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49B94F51F3EE73C00A8D259 /* ObjectiveCUtility */ = {
+			isa = PBXGroup;
+			children = (
+				F49B94F61F3EE73C00A8D259 /* ObjectiveCUtility.h */,
+				F49B94F81F3EE73C00A8D259 /* ObjectiveCUtility.m */,
+			);
+			path = ObjectiveCUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F49B94F11F3EE73C00A8D259 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B94F71F3EE73C00A8D259 /* ObjectiveCUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F49B94F21F3EE73C00A8D259 /* ObjectiveCUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49B94FC1F3EE73C00A8D259 /* Build configuration list for PBXNativeTarget "ObjectiveCUtility" */;
+			buildPhases = (
+				F49B94EF1F3EE73C00A8D259 /* Sources */,
+				F49B94F01F3EE73C00A8D259 /* Frameworks */,
+				F49B94F11F3EE73C00A8D259 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCUtility;
+			productName = ObjectiveCUtility;
+			productReference = F49B94F31F3EE73C00A8D259 /* libObjectiveCUtility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49B94EB1F3EE73C00A8D259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SAHIRAL;
+				TargetAttributes = {
+					F49B94F21F3EE73C00A8D259 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F49B94EE1F3EE73C00A8D259 /* Build configuration list for PBXProject "ObjectiveCUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F49B94EA1F3EE73C00A8D259;
+			productRefGroup = F49B94F41F3EE73C00A8D259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49B94F21F3EE73C00A8D259 /* ObjectiveCUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49B94EF1F3EE73C00A8D259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B94F91F3EE73C00A8D259 /* ObjectiveCUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F49B94FA1F3EE73C00A8D259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F49B94FB1F3EE73C00A8D259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F49B94FD1F3EE73C00A8D259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F49B94FE1F3EE73C00A8D259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49B94EE1F3EE73C00A8D259 /* Build configuration list for PBXProject "ObjectiveCUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B94FA1F3EE73C00A8D259 /* Debug */,
+				F49B94FB1F3EE73C00A8D259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49B94FC1F3EE73C00A8D259 /* Build configuration list for PBXNativeTarget "ObjectiveCUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49B94FD1F3EE73C00A8D259 /* Debug */,
+				F49B94FE1F3EE73C00A8D259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49B94EB1F3EE73C00A8D259 /* Project object */;
+}
